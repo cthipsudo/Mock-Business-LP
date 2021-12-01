@@ -74,7 +74,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45px 90px;
+    padding: 35px 90px;
     color: #f9faf8;
 }
 
@@ -103,6 +103,7 @@ body h2 {
 }
 body h3 {
     margin: 0;
+    font-size: 28px;
 }
 body p {
   margin: 15px 0;
