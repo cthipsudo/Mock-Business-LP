@@ -8,8 +8,9 @@
   width: 100%;
 }
 
-.hero-2col-section, footer {
-  background-color: #271D1C;
+.hero-2col-section,
+footer {
+  background-color: #271d1c;
 }
 
 .hero-2col-section h1 {
@@ -26,7 +27,17 @@
 
 .hero-2col-section .content {
   display: flex;
+  gap: 50px;
   margin: 100px 0;
+}
+
+.hero-2col-section .content div {
+  flex: 1;
+}
+
+.hero-2col-section .content img {
+  height: auto;
+  max-width: 100%;
 }
 
 .info-features-section,
@@ -36,7 +47,7 @@
 }
 
 .info-features-section {
-    padding-top: 0;
+  padding: 0;
 }
 
 .info-features-section .section-container {
@@ -49,6 +60,17 @@
   display: flex;
   gap: 20px;
   text-align: center;
+}
+
+.info-features-section .section-container .features-wrapper img {
+  height: auto;
+  width: 100px;
+}
+
+.icon-attribute {
+  font-size: 0.8em;
+  margin-top: 75px;
+  margin-bottom: 15px;
 }
 
 .quote-section {
@@ -66,20 +88,20 @@
 }
 
 .quote-section .content .quote-author {
-    font-weight: 700;
-    text-align: right;
+  font-weight: 700;
+  text-align: right;
 }
 
 .cta-wrapper .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px 90px;
-    color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 90px;
+  color: #f9faf8;
 }
 
 .cta-wrapper .content button {
-    border: solid 1.5px #f9faf8;
+  border: solid 1.5px #f9faf8;
 }
 
 body,
@@ -102,8 +124,8 @@ body h2 {
   margin: 40px 0;
 }
 body h3 {
-    margin: 0;
-    font-size: 28px;
+  margin: 0;
+  font-size: 28px;
 }
 body p {
   margin: 15px 0;
@@ -138,7 +160,7 @@ header a {
 
 button,
 .cta-wrapper {
-  background-color: #BE3846;
+  background-color: #be3846;
   border-radius: 8px;
 }
 
@@ -150,9 +172,8 @@ button {
   cursor: pointer;
 }
 
-
 footer {
-    justify-content: center;
-    color: #f9faf8;
-    padding: 30px 0;
+  justify-content: center;
+  color: #f9faf8;
+  padding: 30px 0;
 }
