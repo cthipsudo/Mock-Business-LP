@@ -9,7 +9,7 @@
 }
 
 .hero-2col-section, footer {
-  background-color: #1f2937;
+  background-color: #271D1C;
 }
 
 .hero-2col-section h1 {
@@ -73,6 +73,7 @@
 .cta-wrapper .content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 45px 90px;
     color: #f9faf8;
 }
@@ -104,7 +105,7 @@ body h3 {
     margin: 0;
 }
 body p {
-  margin: 0;
+  margin: 15px 0;
 }
 
 body ul {
@@ -136,7 +137,7 @@ header a {
 
 button,
 .cta-wrapper {
-  background-color: #3882f6;
+  background-color: #BE3846;
   border-radius: 8px;
 }
 
@@ -144,7 +145,8 @@ button {
   border-style: none;
   color: white;
   font-size: 18px;
-  padding: 6px 25px;
+  padding: 6px 30px;
+  cursor: pointer;
 }
 
 
