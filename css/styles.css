@@ -1,0 +1,40 @@
+header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-2col-section {
+    background-color: #1F2937;
+}
+
+.hero-2col-section h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-2col-section p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button, .cta-wrapper{
+    background-color: #3882F6;
+}
+
+body h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-section .content {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
